@@ -1,0 +1,102 @@
+/*
+gold #C0B283
+silk #DCD0C0
+paper #F4F4F4
+charcoal #373737
+*/
+
+* {
+	font-family: Times, serif;
+}
+
+html, body {
+   padding: 0;
+   margin: 0;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+input[type=text],
+input[type=password] {
+    box-sizing : border-box;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #373737;
+    padding: 4px;
+}
+
+#loginForm {
+    padding: 48px;
+    background-color: #F4F4F4;
+    position: absolute;
+    border: 2px solid #373737;
+    border-radius: 8px;
+    width: 300px;
+    height: 150px;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0px 0px -200px;
+}
+
+#loginButton {
+    width: 100%;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #373737;
+    font-size: 20px;
+    color: #373737;
+    background-color: #C0B283;
+}
+
+#error {
+    color: red;
+}
+
+.hide {
+    display: none;
+}
+
+#tabs {
+}
+
+.tab {
+    width: 25%;
+    height: 64px;
+    margin-right: -4px;
+    background-color: #373737;
+    color: #FFFFFF;
+    border: 0;
+    font-size: 24px;
+}
+
+.tab:hover {
+    background-color: #C0B283;
+    color: #373737;
+}
+
+.active {
+    background-color: #F4F4F4;
+    color: #373737;
+}
+
+header {
+    background-color: #C0B283;
+    color: #373737;
+    height: 64px;
+    line-height: 64px;
+}
+
+#loginBackground {
+    background: url("assets/univac0.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.content {
+    padding: 48px;
+}
