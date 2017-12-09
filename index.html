@@ -3,10 +3,32 @@
    <head>
        <meta charset="utf-8">
        <meta name="description" content="About the Team">
-       <meta name="author" content="Matt">
+       <meta name="author" content="Kasvi, Isabel, and Mia">
        <title>Login</title>
    </head>
    <body>      
        <h1>Login</h1>
-   </body>  
+ <body id="loginBackground">
+        <script src="scripts.js"></script>
+        
+		<header>
+			<h1>Wander: See Califorina's Beauty</h1>
+		</header>
+		
+		<div id="tabs">
+			<button class="tab" onclick="goToPage('home')">Home</button>
+			<button class="tab" onclick="goToPage('about')">About</button>
+			<button class="tab" onclick="goToPage('content')">Content</button>
+			<button class="tab active" onclick="goToPage('index')">Login</button>
+		</div>
+        
+        <div id="loginForm">
+            <input type="text" id="username" placeholder="Username"><br>
+            <input type="password" id="password" placeholder="Password"><br>
+            <button type="button" id="loginButton" onclick="login()">Login</button>
+            <p id="error" class="hide">Access Denied! Incorrect Username or Password</p>
+        </div>
+		
+    </body>
+    
 </html>
